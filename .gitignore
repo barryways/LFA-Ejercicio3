@@ -30,3 +30,34 @@
 *.exe
 *.out
 *.app
+
+# Ignorar archivos de compilación y archivos generados
+bin/
+obj/
+
+# Ignorar archivos de dependencias NuGet
+packages/
+
+# Ignorar archivos de usuario y configuración específicos de IDE
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignorar archivos de respaldo de Visual Studio
+*~
+*.bak
+*.cache
+
+# Ignorar archivos de generación de documentación
+*.xml
+*.html
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos de compilación
+*.dll
+*.exe
+
+
